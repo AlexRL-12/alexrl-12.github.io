@@ -97,6 +97,7 @@ p{
 
 /* --------------- navbar ----------------- */
 
+
 .nav{
     background: white;
     padding: 0 2rem;
@@ -189,13 +190,6 @@ main .site-title{
     
 }
 
-main .blog .blog-content .colors-type{
-    text-decoration: none;
-    color: white;
-    text-align: justify;
-    
-}
-
 main .site-title .site-background{
     padding-top: 10rem;
     text-align: center;
@@ -217,27 +211,37 @@ main .site-title .btn:hover{
     color: var(--white);
 }
 
+main .site-title .colors-type{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    
+}
+
 /* --------x------ Site title --------x------- */
 
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background: url('../assets/Abract04.png');
+    background: url('../assets/11.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     height: 100vh;
     width: 100%;
     background-size: 65%;
 }
 
+
+
 main .blog .blog-post{
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 main .blog-post .blog-content{
     display: flex;
     flex-direction: column;
-    text-align: center; 
+    text-align: center;
+    width: 80%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
@@ -255,6 +259,7 @@ main .blog-content .btn-blog{
 main .blog-content span{
     display: block;
 }
+
 
 section .container .owl-nav{
     position: absolute;

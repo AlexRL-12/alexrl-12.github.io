@@ -98,6 +98,7 @@ p{
 
 /* --------------- navbar ----------------- */
 
+
 .nav{
     background: white;
     padding: 0 2rem;
@@ -211,6 +212,13 @@ main .site-title .btn:hover{
     color: var(--white);
 }
 
+main .site-title .colors-type{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    
+}
+
 /* --------x------ Site title --------x------- */
 
 /* --------------- Blog Carousel ------------ */
@@ -225,7 +233,7 @@ main .blog{
 }
 
 main .blog .blog-post{
-    padding-top: 6rem;
+    padding-top: 3rem;
 }
 
 main .blog-post .blog-content{
@@ -251,11 +259,19 @@ main .blog-content span{
     display: block;
 }
 
+
 section .container .owl-nav{
     position: absolute;
     top: 0%;
     margin: 0 auto;
     width: 100%;
+}
+
+section .container .blog-content .colors-type{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    
 }
 
 .owl-nav .owl-prev .owl-nav-prev,
