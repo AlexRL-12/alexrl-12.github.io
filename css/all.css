@@ -163,6 +163,13 @@
   -webkit-filter: none;
           filter: none; }
 
+#whatsapp{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+}
+
 .fa-stack {
   display: inline-block;
   height: 2em;

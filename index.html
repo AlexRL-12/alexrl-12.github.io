@@ -1,416 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>GostTv</title>
-    <link rel="shortcut icon" href="assets/logos/iconlogo.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/logos/iconlogo.ico"
+      type="image/x-icon"
+    />
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.css" />
 
     <!-- --------- Owl-Carousel ------------------->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
 
     <!-- ------------ AOS Library ------------------------- -->
-    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/aos.css" />
 
     <!-- Custom Style   -->
-    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/Style.css" />
 
     <!-- Google tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-240677114-1">
-    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-240677114-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-240677114-1');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-240677114-1");
     </script>
 
-</head>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit%22%3E"
+    ></script>
 
-<body>
+  </head>
 
+  <body>
     <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
     <nav class="nav">
-        <div class="nav-menu flex-row">
-            <div class="nav-brand">
-                <a href="index.html" class="text-gray">GostTv</a>
-                <!-- <img class="logo" src="assets/logos/iconlogo.ico" alt="logo" width="50" height="50">  -->
-            </div>
-            <div class="toggle-collapse">
-                <div class="toggle-icons">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-            <div>
-                <ul class="nav-items">
-                    <li class="nav-link">
-                        <a href="#">Subscripción</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="other-pages/reseller.html">Reseller</a>
-                    </li>
-                    <li class="nav-link">
-                        <a href="other-pages/contactus.html">Redes</a> 
-                    </li>
-                    <li class="nav-link">
-                        <a href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`">Contáctanos</a> 
-                    </li>
-                    <li class="nav-link">
-                        <a href="https://billing.gosttv.net/register.php">Registrate</a> 
-                    </li>
-                    <li class="nav-link">
-                        <a href="https://billing.gosttv.net/index.php?rp=/login">Inicia sesiòn</a> 
-                    </li>
-                </ul>
-            </div>
-            <div class="social text-gray">
-                <a href="https://www.facebook.com/Gosttv-102102422578232"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://instagram.com/gosttv1?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
-                <a href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"><i class="fab fa-whatsapp"></i></a>
-                
-                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
-                <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
-            </div>
+      <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="index.html" class="text-gray">GostTv</a>
+          <!-- <img class="logo" src="assets/logos/iconlogo.ico" alt="logo" width="50" height="50">  -->
         </div>
+        <div class="toggle-collapse">
+          <div class="toggle-icons">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div>
+          <ul class="nav-items">
+            <!-- <li class="nav-link">
+                        <a href="#">Subscripción</a>
+                    </li> -->
+            <li class="nav-link">
+              <a href="other-pages/reseller.html">Reseller</a>
+            </li>
+            <li class="nav-link">
+              <a href="other-pages/contactus.html">Redes</a>
+            </li>
+            <li class="nav-link">
+              <a
+                href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"
+                >Contáctanos</a
+              >
+            </li>
+            <li class="nav-link">
+              <a href="https://billing.gosttv.net/register.php">Registrate</a>
+            </li>
+            <li class="nav-link">
+              <a href="https://billing.gosttv.net/index.php?rp=/login"
+                >Inicia sesión</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div id="google_translate_element" class="google"></div>
+        <div class="social text-gray">
+          <a href="https://www.facebook.com/Gosttv-102102422578232"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://instagram.com/gosttv1?igshid=YmMyMTA2M2Y="
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+
+          <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+          <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+        </div>
+      </div>
     </nav>
 
     <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
+    
+    <!----------------------------- whatsapp contact ------------------------------>
+
+    <div id="whatsapp">
+      <a
+        href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"
+      >
+        <img
+          src="./assets/logos/WA.png"
+          title="Contáctanos en un click"
+          alt="Contáctanos en un click"
+        />
+      </a>
+    </div>
+
+    <!-----------------------------X whatsapp contact X------------------------------>
+
     <!----------------------------- Main Site Section ------------------------------>
-
     <main>
+      <!------------------------ Site Title ---------------------->
 
-        
-        <!------------------------ Site Title ---------------------->
+      <section class="site-title">
+        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+          <h1>Bienvenidos a GostTv</h1>
+          <h3>Series y Tv en vivo</h3>
+          <button class="btn">
+            <a
+              class="colors-type"
+              href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"
+            >
+              Contáctanos
+            </a>
+          </button>
+        </div>
+      </section>
 
-        <section class="site-title">
-            
-            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
-                <h1>Bienvenidos a GostTv</h1>
-                <h3>Series y Tv en vivo</h3>
-                <button class="btn"> <a class="colors-type" href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"> Contáctanos </a></button>
-            </div>
+      <!------------x----------- Site Title ----------x----------->
 
-        </section>
-          
-
-        <!------------x----------- Site Title ----------x----------->
-
-        <!-- --------------------- Blog Carousel ----------------- -->
-        <section>
-            <div class="blog">
-                <div class="container">
-                    <div class="owl-carousel owl-theme blog-post">  
-                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
-                            <div class="blog-title">
-                                <h3>Plan plus 1 mes</h3>
-                                <!-- <span>Precio Pesos(COP): $54.999</span> -->
-                                <span> <strike> Precio: $14.99 USD </strike></span>
-                                <span>Precio en oferta limitada: $11.99 USD</span>
-                                <span>Conexiones: 3</span>
-                                <span></span>
-                                <button class="btn btn-blog"><a class="colors-type"  href="http://45.86.229.165/register.php"> Contratar</a></button>
-                            </div>
-                        </div>
-                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
-                            <img src="./assets/Blog-post/post-3.jpg" alt="post-1">
-                            <div class="blog-title">
-                                <h3>Plan plus 3 meses</h3>
-                                <!-- <span>Precio Pesos(COP): $149.000</span> -->
-                                <span><strike>Precio: $39.99 USD</strike></span>
-                                <span>Precio en oferta limitada: $29.99 USD</span>
-                                <span>Conexiones: 3</span>
-                                <span>Gratis un mes más</span>
-                                <button class="btn btn-blog"><a class="colors-type"  href="http://45.86.229.165/register.php"> Contratar</a></button>
-
-                                
-                            </div>
-                        </div>
-                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
-                            <img src="./assets/Blog-post/post-2.jpg" alt="post-1">
-                            <div class="blog-title">
-                                <h3>Plan plus 6 meses</h3>
-                                <!-- <span>Precio Pesos(COP): $275.999</span> -->
-                                <span><strike>Precio: $74.99 USD</strike></span>
-                                <span>Precio en oferta limitada: $55.99 USD</span>
-                                <span>Conexiones: 3</span>
-                                <span>Gratis un mes más</span>
-                                <button class="btn btn-blog"><a class="colors-type" href="http://45.86.229.165/register.php"> Contratar</a></button>
-                            </div>
-                        </div>
-                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
-                            <img src="./assets/Blog-post/post-5.png" alt="post-1">
-                            <div class="blog-title">
-                                <h3>Plan plus 12 meses</h3>
-                                <!-- <span>Precio Pesos(COP): $499.000</span> -->
-                                <span><strike>Precio: $139.99 USD</strike></span>
-                                <span>Precio en oferta limitada: $99.99 USD</span>
-                                <span>Conexiones: 3</span>
-                                <span>Gratis un mes más</span>
-                                <button class="btn btn-blog"><a class="colors-type" href="http://45.86.229.165/register.php"> Contratar</a></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="owl-navigation">
-                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
-                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
+      <!-- --------------------- Blog Carousel ----------------- -->
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div
+                class="blog-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <img src="./assets/Blog-post/post-1.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Plan plus 1 mes</h3>
+                  <!-- <span>Precio Pesos(COP): $54.999</span> -->
+                  <span> <strike> Precio: $14.99 USD </strike></span>
+                  <span>Precio en oferta limitada: $11.99 USD</span>
+                  <span>Conexiones: 3</span>
+                  <span></span>
+                  <button class="btn btn-blog">
+                    <a
+                      class="colors-type"
+                      href="http://45.86.229.165/register.php"
+                    >
+                      Contratar</a
+                    >
+                  </button>
                 </div>
+              </div>
+              <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                <img src="./assets/Blog-post/post-3.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Plan plus 3 meses</h3>
+                  <!-- <span>Precio Pesos(COP): $149.000</span> -->
+                  <span><strike>Precio: $39.99 USD</strike></span>
+                  <span>Precio en oferta limitada: $29.99 USD</span>
+                  <span>Conexiones: 3</span>
+                  <span>Gratis un mes más</span>
+                  <button class="btn btn-blog">
+                    <a
+                      class="colors-type"
+                      href="http://45.86.229.165/register.php"
+                    >
+                      Contratar</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div
+                class="blog-content"
+                data-aos="fade-left"
+                data-aos-delay="200"
+              >
+                <img src="./assets/Blog-post/post-2.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Plan plus 6 meses</h3>
+                  <!-- <span>Precio Pesos(COP): $275.999</span> -->
+                  <span><strike>Precio: $74.99 USD</strike></span>
+                  <span>Precio en oferta limitada: $55.99 USD</span>
+                  <span>Conexiones: 3</span>
+                  <span>Gratis un mes más</span>
+                  <button class="btn btn-blog">
+                    <a
+                      class="colors-type"
+                      href="http://45.86.229.165/register.php"
+                    >
+                      Contratar</a
+                    >
+                  </button>
+                </div>
+              </div>
+              <div
+                class="blog-content"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              >
+                <img src="./assets/Blog-post/post-5.png" alt="post-1" />
+                <div class="blog-title">
+                  <h3>Plan plus 12 meses</h3>
+                  <!-- <span>Precio Pesos(COP): $499.000</span> -->
+                  <span><strike>Precio: $139.99 USD</strike></span>
+                  <span>Precio en oferta limitada: $99.99 USD</span>
+                  <span>Conexiones: 3</span>
+                  <span>Gratis un mes más</span>
+                  <button class="btn btn-blog">
+                    <a
+                      class="colors-type"
+                      href="http://45.86.229.165/register.php"
+                    >
+                      Contratar</a
+                    >
+                  </button>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="owl-navigation">
+              <span class="owl-nav-prev"
+                ><i class="fas fa-long-arrow-alt-left"></i
+              ></span>
+              <span class="owl-nav-next"
+                ><i class="fas fa-long-arrow-alt-right"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- ----------x---------- Blog Carousel --------x-------- -->
+      <!-- ----------x---------- Blog Carousel --------x-------- -->
 
-        <!-- ---------------------- Site Content -------------------------->
+      <!-- ---------------------- Site Content -------------------------->
 
-        <section class="container">
-            <div class="site-content">
-                <div class="posts">
-                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="post-image">
-                            <div>
-                                <video src="assets/Blog-post/app.mp4" autoplay muted loop class="img" alt="blog1"></video>
-                                <!-- <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1"> -->
-                            </div>
-                            <!-- <div class="post-info flex-row">
+      <section class="container">
+        <div class="site-content">
+          <div class="posts">
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <video
+                    src="assets/Blog-post/app.mp4"
+                    autoplay
+                    muted
+                    loop
+                    class="img"
+                    alt="blog1"
+                  ></video>
+                  <!-- <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1"> -->
+                </div>
+                <!-- <div class="post-info flex-row">
                                 <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
                                 <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14, 2019</span>
                                 <span>2 Commets</span>
                             </div> -->
-                        </div>
-                        <div class="post-title">
-                            <a href="#">Hecha un vistazo a la aplicación</a>
-                            <p>En nuestra aplicación IPTV-SMATERS, clasificamos por categorias y por paises cada uno de nuestros canales 
-                                para que de esta manera se tenga un buen orden y sea facil el acceder a un canal especifico.
-                            </p>
-                            <a href="https://play.google.com/store/apps/details?id=com.nst.smartersplayer">
-                                <button class="btn post-btn">Descarga la App &nbsp; <i class="fas fa-arrow-right"></i></button>
-                            </a>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="post-image">
-                            <div>
-                                <img src="./assets/logos/gost-tv 1.jpg" class="img" alt="blog1">
-                            </div>
-                        </div>
-                        <div class="post-title">
-                            <a href="#">¿Quiénes somos?</a>
-                            <p>Somos una empresa especializada en contenido de televisión internacional, dirigida para que los usuarios tengan la mejor experiencia de streaming, con planes de acuerdo con la necesidad de cada cliente y usuarios, contáctanos para una asesoría personalizada en nuestros planes.
-                            </p>
-                            <!--<button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>  -->
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="post-image">
-                            <div>
-                                <img src="./assets/Blog-post/blog3.png" class="img" alt="blog1">
-                            </div>
-                        </div>
-                        <div class="post-title">
-                            <a href="#">Soporte de la plataforma en el menor tiempo posible.</a>
-                            <p>Te brindamos la mejor atención y soporte en nuestro grupo de Whatsapp, puedes tener acceso a el y
-                                resolver tus dudas o inconformidades, contáctanos.
-                            </p>
-
-                            <a href="https://chat.whatsapp.com/J3fYyG77UH0EvK6mPWF0iJ">
-                            <button class="btn post-btn">ir a whatsapp &nbsp; <i class="fas fa-arrow-right"></i></button>
-                            </a>
-                        </div>
-                    </div>
-                    <hr>
+              </div>
+              <div class="post-title">
+                <a href="#">Hecha un vistazo a la aplicación</a>
+                <p>
+                  En nuestra aplicación IPTV-SMATERS, clasificamos por
+                  categorias y por paises cada uno de nuestros canales para que
+                  de esta manera se tenga un buen orden y sea facil el acceder a
+                  un canal especifico.
+                </p>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.nst.smartersplayer"
+                >
+                  <button class="btn post-btn">
+                    Descarga la App &nbsp; <i class="fas fa-arrow-right"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="./assets/logos/gost-tv 1.jpg"
+                    class="img"
+                    alt="blog1"
+                  />
                 </div>
+              </div>
+              <div class="post-title">
+                <a href="#">¿Quiénes somos?</a>
+                <p>
+                  Somos una empresa especializada en contenido de televisión
+                  internacional, dirigida para que los usuarios tengan la mejor
+                  experiencia de streaming, con planes de acuerdo con la
+                  necesidad de cada cliente y usuarios, contáctanos para una
+                  asesoría personalizada en nuestros planes.
+                </p>
+                <!--<button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>  -->
+              </div>
+            </div>
+            <hr />
+            <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+              <div class="post-image">
+                <div>
+                  <img
+                    src="./assets/Blog-post/blog3.png"
+                    class="img"
+                    alt="blog1"
+                  />
+                </div>
+              </div>
+              <div class="post-title">
+                <a href="#"
+                  >Soporte de la plataforma en el menor tiempo posible.</a
+                >
+                <p>
+                  Te brindamos la mejor atención y soporte en nuestro grupo de
+                  Whatsapp, puedes tener acceso a el y resolver tus dudas o
+                  inconformidades, contáctanos.
+                </p>
 
-                <aside class="sidebar">
-                    <div class="category">
-                        <h2>Nuestras categorias son:</h2>
-                        <ul class="category-list">
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
-                                <a href="#">Canales de fútbol</a>
-                                <span>(05)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
-                                <a href="#">Canales infantiles</a>
-                                <span>(02)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
-                                <a href="#">Canales de telenovelas</a>
-                                <span>(07)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
-                                <a href="#">Canales de cinema</a>
-                                <span>(01)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
-                                <a href="#">Canales por países</a>
-                                <span>(08)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
-                                <a href="#">Canales de adultos +18</a>
-                                <span>(08)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
-                                <a href="#">programación ppv</a>
-                                <span>(08)</span>
-                            </li>
-                            <!-- <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                <a href="https://chat.whatsapp.com/J3fYyG77UH0EvK6mPWF0iJ">
+                  <button class="btn post-btn">
+                    ir a whatsapp &nbsp; <i class="fas fa-arrow-right"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <hr />
+          </div>
+
+          <aside class="sidebar">
+            <div class="category">
+              <h2>Nuestras categorias son:</h2>
+              <ul class="category-list">
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="100"
+                >
+                  <a href="#">Canales de fútbol</a>
+                  <span>(05)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <a href="#">Canales infantiles</a>
+                  <span>(02)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="300"
+                >
+                  <a href="#">Canales de telenovelas</a>
+                  <span>(07)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="400"
+                >
+                  <a href="#">Canales de cinema</a>
+                  <span>(01)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                >
+                  <a href="#">Canales por países</a>
+                  <span>(08)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                >
+                  <a href="#">Canales de adultos +18</a>
+                  <span>(08)</span>
+                </li>
+                <li
+                  class="list-items"
+                  data-aos="fade-left"
+                  data-aos-delay="500"
+                >
+                  <a href="#">programación ppv</a>
+                  <span>(08)</span>
+                </li>
+                <!-- <li class="list-items" data-aos="fade-left" data-aos-delay="500">
                                 <a href="#">Otros</a>
                                 <span>(08)</span>
                             </li> -->
-                        </ul>
-                    </div>
-                    <div class="popular-post">
-                        <h2>Algunos de nuestros canales</h2>
-                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
-                            <div class="post-image">
-                                <div>
-                                    <img src="./assets/popular-post/m-blog-1.jpg" class="img" alt="blog1">
-                                </div>
-                                <div class="post-info flex-row">
-                                    <span>Tenemos lo mejor para tí.</span>
-                                </div>
-                            </div>
-                            <div class="post-title">
-                                <a href="#">El mejor canal de fútbol en Colombia.</a>
-                            </div>
-                        </div>
-                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
-                            <div class="post-image">
-                                <div>
-                                    <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
-                                </div>
-                                <div class="post-info flex-row">
-                                    <span>Tenemos lo mejor para tí.</span>
-                                </div>
-                            </div>
-                            <div class="post-title">
-                                <a href="#">Uno de los mejores canales para peliculas.</a>
-                            </div>
-                        </div>
-                        <div class="post-content" data-aos="flip-up" data-aos-delay="400">
-                            <div class="post-image">
-                                <div>
-                                    <img src="./assets/popular-post/m-blog-3.jpg" class="img" alt="blog1">
-                                </div>
-                                <div class="post-info flex-row">
-                                    <span>Tenemos lo mejor para tí.</span>
-                                </div>
-                            </div>
-                            <div class="post-title">
-                                <a href="#">Canales reconocidos a nivel mundial.</a>
-                            </div>
-                        </div>
-                        <div class="post-content" data-aos="flip-up" data-aos-delay="500">
-                            <div class="post-image">
-                                <div>
-                                    <img src="./assets/popular-post/m-blog-4.jpg" class="img" alt="blog1">
-                                </div>
-                                <div class="post-info flex-row">
-                                    <span>Tenemos lo mejor para tí.</span>
-                                </div>
-                            </div>
-                            <div class="post-title">
-                                <a href="#">Canales que ofrecen contenido diverso.</a>
-                            </div>
-                        </div>
-                        <div class="post-content" data-aos="flip-up" data-aos-delay="600">
-                            <div class="post-image">
-                                <div>
-                                    <img src="./assets/popular-post/m-blog-5.jpg" class="img" alt="blog1">
-                                </div>
-                                <div class="post-info flex-row">
-                                    <span>Tenemos lo mejor para tí.</span>
-                                </div>
-                            </div>
-                            <div class="post-title">
-                                <a href="#">Disfruta del mejor cinema</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popular-tags">
-                        <h2>Reconocidos por:</h2>
-                        <div class="tags flex-row">
-                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Compromiso</span>
-                            <span class="tag" data-aos="flip-up" data-aos-delay="200">Seguridad</span>
-                            <span class="tag" data-aos="flip-up" data-aos-delay="300">Efectividad</span>
-                            <span class="tag" data-aos="flip-up" data-aos-delay="400">Calidad de video</span>
-                            <span class="tag" data-aos="flip-up" data-aos-delay="600">Buenos precios</span>
-                            <span class="tag" data-aos="flip-up" data-aos-delay="500">Soporte</span>
-                           
-                            <!-- <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
-                            <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span> -->
-                        </div>
-                    </div>
-                </aside>
+              </ul>
             </div>
-        </section>
+            <div class="popular-post">
+              <h2>Algunos de nuestros canales</h2>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-blog-1.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span>Tenemos lo mejor para tí.</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#">El mejor canal de fútbol en Colombia.</a>
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-blog-2.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span>Tenemos lo mejor para tí.</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#">Uno de los mejores canales para peliculas.</a>
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="400">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-blog-3.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span>Tenemos lo mejor para tí.</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#">Canales reconocidos a nivel mundial.</a>
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="500">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-blog-4.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span>Tenemos lo mejor para tí.</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#">Canales que ofrecen contenido diverso.</a>
+                </div>
+              </div>
+              <div class="post-content" data-aos="flip-up" data-aos-delay="600">
+                <div class="post-image">
+                  <div>
+                    <img
+                      src="./assets/popular-post/m-blog-5.jpg"
+                      class="img"
+                      alt="blog1"
+                    />
+                  </div>
+                  <div class="post-info flex-row">
+                    <span>Tenemos lo mejor para tí.</span>
+                  </div>
+                </div>
+                <div class="post-title">
+                  <a href="#">Disfruta del mejor cinema</a>
+                </div>
+              </div>
+            </div>
+            <div class="popular-tags">
+              <h2>Reconocidos por:</h2>
+              <div class="tags flex-row">
+                <span class="tag" data-aos="flip-up" data-aos-delay="100"
+                  >Compromiso</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="200"
+                  >Seguridad</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="300"
+                  >Efectividad</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="400"
+                  >Calidad de video</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="600"
+                  >Buenos precios</span
+                >
+                <span class="tag" data-aos="flip-up" data-aos-delay="500"
+                  >Soporte</span
+                >
 
-        <!-- -----------x---------- Site Content -------------x------------>
-        
+                <!-- <span class="tag" data-aos="flip-up" data-aos-delay="700">love</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">project</span> -->
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
 
+      <!-- -----------x---------- Site Content -------------x------------>
     </main>
 
     <!---------------x------------- Main Site Section ---------------x-------------->
 
-
     <!-- --------------------------- Footer ---------------------------------------- -->
 
     <footer class="footer">
-        <div class="container">
-            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
-                <h2>Acerca de nosotros</h2>
-                <p>Somos una empresa especializada en contenido de televisión internacional, dirigida para que los usuarios tengan la mejor experiencia de streaming, con planes de acuerdo con la necesidad de cada cliente y usuarios.</p>
-            </div>
-            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
-                <h2>Mantente al tanto</h2>
-                <p>Stay update with our latest</p>
-                <div class="form-element">
-                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
-                </div>
-            </div>
-            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
-                <h2>Instagram</h2>
-                <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
-                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
-                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
-                </div>
-                <div class="flex-row">
-                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
-                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
-                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
-                </div>
-            </div>
-            <div class="follow" data-aos="fade-left" data-aos-delay="200">
-                <h2>siguenos en</h2>
-                <p>Nuestras redes sociales</p>
-                <div>
-                    <a href="https://www.facebook.com/Gosttv-102102422578232"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://instagram.com/gosttv1?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
-                    <a href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+          <h2>Acerca de nosotros</h2>
+          <p>
+            Somos una empresa especializada en contenido de televisión
+            internacional, dirigida para que los usuarios tengan la mejor
+            experiencia de streaming, con planes de acuerdo con la necesidad de
+            cada cliente y usuarios.
+          </p>
         </div>
-        <div class="rights flex-row">
-            <h4 class="text-gray">
-                Copyright ©2022 All rights reserved | made by
-                <a href="#" target="_black">GostTv | AlexRL</a>
-            </h4>
+        <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+          <h2>Mantente al tanto</h2>
+          <p>Stay update with our latest</p>
+          <div class="form-element">
+            <input type="text" placeholder="Email" /><span
+              ><i class="fas fa-chevron-right"></i
+            ></span>
+          </div>
         </div>
-        <div class="move-up">
-            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+          <h2>Instagram</h2>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card3.png" alt="insta1" />
+            <img src="./assets/instagram/thumb-card4.png" alt="insta2" />
+            <img src="./assets/instagram/thumb-card5.png" alt="insta3" />
+          </div>
+          <div class="flex-row">
+            <img src="./assets/instagram/thumb-card6.png" alt="insta4" />
+            <img src="./assets/instagram/thumb-card7.png" alt="insta5" />
+            <img src="./assets/instagram/thumb-card8.png" alt="insta6" />
+          </div>
         </div>
+        <div class="follow" data-aos="fade-left" data-aos-delay="200">
+          <h2>siguenos en</h2>
+          <p>Nuestras redes sociales</p>
+          <div>
+            <a href="https://www.facebook.com/Gosttv-102102422578232"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://instagram.com/gosttv1?igshid=YmMyMTA2M2Y="
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://wa.me/+573052349990?texto=Quisiera%20consultar%20sobre%20las%20ofertas%20de%20que%20manejan`"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="rights flex-row">
+        <h4 class="text-gray">
+          Copyright ©2022 All rights reserved | made by
+          <a href="#" target="_black">GostTv | AlexRL</a>
+        </h4>
+      </div>
+      <div class="move-up">
+        <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+      </div>
     </footer>
 
     <!-- -------------x------------- Footer --------------------x------------------- -->
@@ -426,6 +614,23 @@
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
-</body>
 
+    <script src="./js/script.js"></script>
+
+    <!-- <div id="google_translate_element" class="google"></div> -->
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "es",
+            includedLanguages: "ca,eu,gl,en,fr,it,pt,de",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            gaTrack: true,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+  </body>
 </html>
